@@ -1,0 +1,18 @@
+main: me.emnichtdayt.handcuff.HandCuffMain
+name: HandCuff
+version: 1.1
+description: HandCuff
+author: EmnichtdaYT
+website: emnichtdayt.lima-city.de
+
+commands:
+     handcuff:
+          permission: HandCuff.cuff
+          description: Cuffs/Uncuffs the closest player
+          usage: /handcuff
+          aliases: festnehmen
+     carry:
+          permission: HandCuff.carry
+          description: Carrys/Stops carrying the closest player
+          usage: /carry
+          aliases: tragen
